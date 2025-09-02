@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'High Empathy';
+  src: url('../src/assets/fonts/High-Empathy.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
