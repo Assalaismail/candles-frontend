@@ -68,6 +68,7 @@ const SectionSeven: React.FC = () => {
             alt="Enlarged"
             className="max-w-full max-h-[90vh] object-contain"
           />
+
         </div>
       )}
     </section>

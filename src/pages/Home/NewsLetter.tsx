@@ -17,18 +17,19 @@ const NewsLetter: React.FC = () => {
         </div>
 
         {/* Title */}
-        <h1 className="text-[40px] font-bold text-gray-800">Join Our Newsletter</h1>
+        <h1 className="text-[35px] font-bold text-gray-800">Join Our Newsletter</h1>
 
         {/* Email input with send button */}
-        <div className="flex items-center bg-white w-150">
+        <div className="flex items-center bg-white w-full">
           <input
             type="email"
-            placeholder="Enter your email"
-            className="flex-1 px-4 py-2 focus:outline-none border-none"
+            placeholder="Email Address"
+            className="flex-1 px-4 py-2 focus:outline-none border-b-2 text-primary"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <button className="text-title p-3 ">
+
+          <button className="text-title p-3  text-primary">
             <FaPaperPlane size={20} />
           </button>
         </div>
